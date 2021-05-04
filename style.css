@@ -1,0 +1,100 @@
+.full-website {
+    background-color: rgb(245, 244, 244);
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.logo a{
+    font-size: 30px;
+    color: blue;
+    text-decoration: none;
+}
+
+.menu ul {
+    text-align: right;
+    line-height: 55px;
+}
+.menu ul li {
+    display: inline-block;
+}
+.menu ul li a {
+    text-decoration: none;
+    padding: 0 30px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+
+/* Banner */
+.banner{
+    background-image: url(./picture/cover.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding-bottom: 300px;
+    padding-top: 200px;
+    position: relative;
+    z-index: 1;
+    
+}
+.banner:after{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.651);
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    z-index: -1;
+}
+.banner h1{
+    color: white;
+    text-align: center;
+    font-weight: 600;
+}
+
+/* about */
+
+.about{
+
+}
+
+.about .profile img{
+    max-width: 70%;
+}
+.about li{
+    list-style-type: none;
+}
+.about #lorem{
+    margin-top: 20px;
+}
+
+.about-right p:nth-child(2){
+    font-size: 15px;
+}
+.about-right p:nth-child(3){
+    font-size: 15px;
+}
+.about-right p:nth-child(4) {
+	
+	font-size: 20px;
+	word-spacing: -1px;
+	
+}
+b{
+    display: block;
+}
+.submit{
+    display: block;
+    margin-top: 10px;
+}
+.copy{
+    background-color: #0062d3;
+    color: white;
+    text-align: center;
+   
+}
+.copy span{
+    width: 30%;
+    text-align: center;
+}
